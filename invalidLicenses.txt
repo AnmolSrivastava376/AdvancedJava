@@ -1,0 +1,4 @@
+nipr,License ID,Jurisdiction,Resident,License Class,License Effective Date,License Expiry Date,License Status
+41585823, 85590, NV, Y, Res Motor Club Agt/Agy, 05/01/2014, 05/01/2014, N
+41581153, 73126, NY, Y, RES, 11/01/2012, 02/01/2012, Y
+41585823, 85590, NV, Y, Res Motor Club Agt/Agy, 05/01/2014, 05/01/2014, N
