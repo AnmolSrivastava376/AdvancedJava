@@ -24,8 +24,12 @@ public class Main {
             processLicenseDocument(license1Document, validLicenseList, invalidLicenseList);
             processLicenseDocument(license2Document, validLicenseList, invalidLicenseList);
 
+            List<String> mergedLicenseList = new ArrayList<>(validLicenseList);
+            mergedLicenseList.addAll(invalidLicenseList);
+            
             writeToFile("validLicenses.txt", validLicenseList);
             writeToFile("invalidLicenses.txt", invalidLicenseList);
+            writeToFile("mergedLicenses.txt", mergedLicenseList);
         } catch (Exception e) {
             e.printStackTrace();
         }
